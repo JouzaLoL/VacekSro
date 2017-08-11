@@ -1,0 +1,189 @@
+/* #ece8e5  - bg*/
+
+
+/*===============================
+=            General            =
+===============================*/
+
+a {
+    text-decoration: none;
+    color: #33cc33;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+/*=====  End of General  ======*/
+
+
+/*==============================
+=            Header            =
+==============================*/
+
+#header {
+    margin-top: 5px;
+    border-bottom: solid 2px grey;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/*=====  End of Header  ======*/
+
+
+/*==================================
+=            Navigation            =
+==================================*/
+
+#navigation {
+    padding: 6px 8px;
+}
+
+#navigation ul {
+    margin: 0;
+    list-style-type: none;
+    display: block;
+    size: large;
+}
+
+#navigation li {
+    display: inline-block;
+}
+
+#navigation li a,
+.dropbtn {
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+#navigation li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: gray;
+    color: white;
+}
+
+#navigation li a.active {
+    background-color: #666666;
+    color: white;
+}
+
+#navigation li.dropdown {
+    display: inline-block;
+}
+
+#navigation .dropdown-content {
+    display: none;
+    margin-top: 6px;
+    position: absolute;
+    background-color: #ece8e5;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#navigation .dropdown-content a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#navigation .dropdown-content a:hover {
+    background-color: gray;
+}
+
+#navigation .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*=====  End of Navigation  ======*/
+
+
+/*===============================
+=            Sidebar            =
+===============================*/
+
+.sidebar-heading {
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.backdrop {
+    overflow: hidden;
+    padding: 14px 14px;
+    color: white;
+    background-color: gray;
+}
+
+#open-indicator {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+/*=====  End of Sidebar  ======*/
+
+
+/*====================================
+=            Main content            =
+====================================*/
+
+.content {
+    padding: 20px 20px;
+}
+
+.content h5 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.osoba {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.kategorie {
+    font-style: italic;
+}
+
+/*=====  End of Main content  ======*/
+
+
+/*==============================
+=            Footer            =
+==============================*/
+
+#footer {
+    border-top: solid 2px gray;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: #666666;
+    text-align: center;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+
+/*=====  End of Footer  ======*/
